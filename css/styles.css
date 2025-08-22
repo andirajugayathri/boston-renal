@@ -650,12 +650,14 @@ textarea.form-control {
         margin-top: 0;
     }
 }
-
+.book-btn-container{
+    text-align: left;
+}
 .book-btn {
-    display: inline-block; /* makes <a> behave like a button */
+    display: inline-block;
     background-color: #00bcd4;
     color: white;
-    text-decoration: none; /* remove underline */
+    text-decoration: none;
     border: none;
     padding: 12px 30px;
     border-radius: 10px;
@@ -668,9 +670,8 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
-    .book-btn {
-        display: block;
-        margin: 0 auto; 
+    .book-btn-container {
+        margin-top:1rem;
         text-align: center;
     }
 }
