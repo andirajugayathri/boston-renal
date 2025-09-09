@@ -1317,6 +1317,7 @@ textarea.form-control {
     .hero-contentz{
         text-align: center!important;
         left: 0!important;
+        top: 10% !important;
     }
     .hero-sectioni {
         height: 70vh;
